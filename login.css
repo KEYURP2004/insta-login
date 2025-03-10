@@ -10,7 +10,7 @@ body{
 .main{
      border: 1px solid  #DBDBDB ;
      width: 350px;
-     display: flex;
+     /* display: flex; */
      justify-content: center;
      margin: 10px 0px;
      
@@ -19,6 +19,22 @@ body{
     .namelogo{
         height: 55px;
         width: 183px;
-        padding: 40px 0px;
+        
+        padding: 40px 90px;
         /* margin: auto; */
+    }
+
+    input{
+        display: flex;
+        justify-self: center;
+        padding: 7px;
+        height: 20px;
+        border: 1px solid  #DBDBDB ;
+        width: 250px;
+        font-size: 12px;
+        color: #DBDBDB;
+        background-color: #FAFAFA;
+        margin: 6px 0px;
+        border-radius: 2px;
+        
     }
