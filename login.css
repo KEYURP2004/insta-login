@@ -6,6 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Arial, sans-serif;
+    overflow-y: scroll; /* Show scrollbars */
     /* background-color: #fafafa; */
     /* justify-content: center;
     align-items: center; */
@@ -97,6 +98,19 @@ body{
         top: 0px;
         
       }
+
+      input::placeholder{
+        position: relative;
+        right: 1.6px;
+        word-spacing: 0px;
+      }
+      input[type="password"]::placeholder{
+        position: relative;
+        right: 1.6px;
+        top: -0.5px;
+        word-spacing: 0px;
+      }
+      
   
 
     
