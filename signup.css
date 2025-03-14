@@ -17,7 +17,7 @@ body{
      /* display: flex; */
      /* justify-content: center; */
      margin: 11.7px 0px;
-     height: 617px;
+     height: 601px;
      box-sizing: border-box;
      background-color: #fff;
      
@@ -126,5 +126,106 @@ body{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     
         }
-       
-        
+        .form{
+            margin: 28px 25px;
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            margin: 2px auto;
+            margin-bottom: 4.5px;
+             padding: 9px;
+             /* padding-left: 8px; */
+             
+            /* position: relative; */
+            
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+             height: 18px;
+             border: 1px solid  #DBDBDB ;
+             width: 248px;
+             font-size: 12px;
+             text-align: left;
+             word-spacing: 0px;
+           
+             
+              
+             
+             /* color: #DBDBDB; */
+             background-color: #FAFAFA;
+             /* margin: 6px 0px; */
+             border-radius: 3px;
+     
+             
+         }
+         #fullname{
+            margin-top: 1px;
+         }
+
+         input[id="email"]::placeholder{
+            position: relative;
+            left: -1.5px;
+         }
+         input[id="password"]::placeholder{
+            position: relative;
+            left: -1.5px;
+            top: -0.5px;
+         }
+         input[id="fullname"]::placeholder{
+            position: relative;
+            left: -4.7px;
+            top: -0.5px;
+         }
+         input[id="Username"]::placeholder{
+            position: relative;
+            left: -1.5px;
+            top: -0.5px;
+         }
+         .text{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            /* align-items: center; */
+            font-size: 12px;
+            margin-top: -19px;
+            font-weight: 400;
+
+         }
+         .text p{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+            position: relative;
+            top: 0px;
+            color: rgb(115, 115, 115);
+         }
+         .text a{
+            text-decoration: none;
+            color: #00376B;
+         }
+         .text #p2{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+            position: relative;
+            top: 16px;
+            color: rgb(115, 115, 115);
+
+         }
+         .btnsignup button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         .button{
+            width: 268px;
+            margin: auto;
+                 
+            height: 32px;
+            color: white;
+            background-color: #4CB5F9;
+            border: none;
+            border-radius: 8px;
+              font-weight:bold;
+            margin-top: 31px;
+            font-size: 14px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+               font-weight:600; }
