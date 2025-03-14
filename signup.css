@@ -229,3 +229,81 @@ body{
             font-size: 14px;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
                font-weight:600; }
+
+
+               .box2{
+                 
+                position: relative;
+                left: -1px; 
+                 border: 1px solid  #DBDBDB ;
+                   top: 49px;
+                     width: 348px;
+                      height: 79px;
+                      /* margin: auto; */
+               }
+               .box2 #span1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 14px;
+                margin-top: 24px;
+                margin-left: 0.999px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+               }
+               .box2 #span2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 14px;
+               
+                color:   #0095F6;
+                font-weight:600;
+                /* margin-top: 24px; */
+                margin-top: -2.9px;
+                margin-left: 0.999px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+               }
+               .box2 #span2 a{
+                text-decoration: none;
+                color:   #0095F6;
+               }
+
+               .box3{
+                /* position: relative; */
+                left: -0.5px; 
+                width: 348px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 65px;
+                
+            }
+            .box3 p {
+               
+                font-family: 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+                color:rgb(0, 0, 0);
+                text-decoration: none;
+                font-weight:400;
+                font-size: 14px;
+            }
+        
+            .box4{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 12px;
+                margin-left: 2px;
+                
+            }
+            .googleplay{
+               margin-right: 2.3px;
+                height: 45px;
+                width: 138px;
+                
+            }
+            .microsoft{
+                height: 42px;
+                width: 116px;
+            }
