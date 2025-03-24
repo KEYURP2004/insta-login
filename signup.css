@@ -29,13 +29,16 @@ body{
         display: block;
         justify-content: center;
         align-items: center;
+        padding-bottom: -2px;
     }
     .namelogo{
-        height: 51.5px;
-        width: 176.5px;
+        height: 57px;
+        width: 181.5px;
+        
         position: relative;
-        padding-top: 46px;
-        padding-left: 85.3px; }
+        padding-top: 43px;
+        padding-left: 82.5px;
+        font-weight: 1000; }
 
 
         .p1{
@@ -46,7 +49,7 @@ body{
             color: #737385;
             font-size: 16px;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            margin-top: 8px;
+            margin-top: 6px;
             line-height: 1.2;
             font-weight: 500;
             margin-bottom: 4px;
@@ -80,7 +83,7 @@ body{
             border: none;
             border-radius: 8px;
               font-weight:550;
-              margin-top: 14px;
+              margin-top: 13.5px;
         }
         .fbbtn img{
             position: relative;
@@ -160,6 +163,10 @@ body{
          #fullname{
             margin-top: 1px;
          }
+         input:focus {
+            outline: none;
+            border: 1px solid  #A8A8A8;
+        }
 
          input[id="email"]::placeholder{
             position: relative;
@@ -293,13 +300,13 @@ body{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-top: 12px;
+                margin-top: 14px;
                 margin-left: 2px;
                 
             }
             .googleplay{
                margin-right: 2.3px;
-                height: 45px;
+                height: 45.5px;
                 width: 138px;
                 
             }
@@ -307,3 +314,70 @@ body{
                 height: 42px;
                 width: 116px;
             }
+             footer{
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 53px;
+    margin-left: -276px;
+    height: 93px;
+    /* position: absolute; */
+
+   }
+  .footer-container{
+    
+    width: 900px;
+    margin: auto;
+
+   }
+   .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+   
+    
+   }
+   .footer-container span {
+    display: inline;
+    font-size: 12px;
+    word-spacing: 0px;
+   
+}
+.footer-links a {
+    font-family: 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+    text-decoration: none;
+    color:#6a6c71;
+    font-size: 12px;
+}
+.footer-bottom{
+ font-family: 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+    text-decoration: none;
+    color:#6a6c71;
+    font-size: 12px;
+    
+    gap: 16px;
+    margin-top: 19px;
+    margin-left: -5px;
+}
+
+ .footer-p {
+    color:#6a6c71;
+    
+}
+select  {
+    margin-left: 0px;
+    border: none;
+    outline: none;
+    color:#6a6c71;
+    font-family: 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+    text-decoration: none;
+    color:#6a6c71;
+    font-size: 12px;
+    padding-right: 0px;
+}
+select::after{
+    content: "⌄";
+    font-weight: normal;
+}
+
+           

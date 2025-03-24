@@ -34,11 +34,13 @@ body{
         align-items: center;
     }
     .namelogo{
-        height: 51.5px;
-        width: 176.5px;
+        height: 57px;
+        width: 181.5px;
+        
         position: relative;
-        padding-top: 46px;
-        padding-left: 85.3px;
+        padding-top: 43px;
+        padding-left: 82.5px;
+        font-weight: 1000;
                
         /* /* padding-left: 85PX;  */
         /* padding-top: 47px;  */
@@ -46,6 +48,7 @@ body{
     }
     .form{
         margin: 29.5px 25px;
+        margin-top: 27px;
         display: flex;
         flex-direction: column;
     }
@@ -76,6 +79,11 @@ body{
 
         
     }
+    input:focus {
+        outline: none;
+        border: 1px solid  #A8A8A8;
+    }
+    
     input[type="text"]{
         position: relative;
       /* left: -0.8px; */
@@ -139,7 +147,13 @@ body{
      bottom: 10px; 
     font-size: small;   }
 
-    span{
+    #or{
+        color: #DBDBDB;
+        cursor:unset;
+        position: relative;
+        top: 1px;
+    }
+    #or2{
         color: #DBDBDB;
         cursor:unset;
         position: relative;
@@ -279,3 +293,65 @@ body{
         height: 42px;
         width: 116px;
     }
+   footer{
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 54px;
+    margin-left: -276px;
+    height: 93px;
+    /* position: absolute; */
+
+   }
+  .footer-container{
+    
+    width: 900px;
+    margin: auto;
+
+   }
+   .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+   
+    
+   }
+   .footer-container span {
+    display: inline;
+    font-size: 12px;
+    word-spacing: 0px;
+   
+}
+.footer-links a {
+    font-family: 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+    text-decoration: none;
+    color:#6a6c71;
+    font-size: 12px;
+}
+.footer-bottom{
+ font-family: 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+    text-decoration: none;
+    color:#6a6c71;
+    font-size: 12px;
+    
+    gap: 16px;
+    margin-top: 18px;
+    margin-left: -5px;
+}
+
+ .footer-p {
+    color:#6a6c71;
+    
+}
+select  {
+    margin-left: 0px;
+    border: none;
+    outline: none;
+    color:#6a6c71;
+    font-family: 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+    text-decoration: none;
+    color:#6a6c71;
+    font-size: 12px;
+    padding-right: 0px;
+}
+ 
