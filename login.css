@@ -344,7 +344,8 @@ body{
     
 }
 select  {
-    margin-left: 0px;
+    margin-left: 10px;
+    margin-top: 1.2px;
     border: none;
     outline: none;
     color:#6a6c71;
@@ -353,5 +354,18 @@ select  {
     color:#6a6c71;
     font-size: 12px;
     padding-right: 0px;
+    appearance: none;
+}
+.footer-bottom img{
+    position: relative;
+    top: 1.8px;
+    height: 11.5px;
+    width: 16.5px;
+    left: 1px;
+    cursor: pointer;
+}
+.footer-bottom #footer-span2{
+    position: relative;
+    left: -5px;
 }
  
